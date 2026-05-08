@@ -17,6 +17,14 @@ const hello2 = function () {
 console.log(hello2);
 console.log(hello2());
 
+let fibo = function fibonacci(number) {
+  if (number <= 1) return 1;
+  return fibonacci(number - 1) + fibonacci(number - 2);
+};
+console.log("Fibo:", fibo(5));
+// console.log("Fibo:", fibonacci(5));
+// fibonacci(5);
+
 //named function expression
 const hello3 = function hello3() {
   console.log("Hello Faysal");

@@ -109,3 +109,8 @@ for (key in language) {
   console.log(key);
   console.log(language[key]);
 }
+
+const numbers4 = [1, 2, 3, 4, 5];
+const result15 = numbers4.splice(2, 2, 6, 12, 18);
+console.log(result15);
+console.log(numbers4);
