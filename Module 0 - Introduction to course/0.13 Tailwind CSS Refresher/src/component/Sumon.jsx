@@ -2,12 +2,17 @@ import bgImage1 from "../assets/11.jpg";
 import bgImage2 from "./11.png";
 import bgImage3 from "../../../../image/11.jpg";
 
-function Init() {
+function Sumon() {
   return (
     <>
+      {/* <div className="bg-[url('8.jpg')] bg-center bg-no-repeat bg-cover h-50 w-50"></div> */}
+      {/* <img src="../assets/11.jpg" /> */}
+
       <div className="text-3xl font-bold underline">
-        <h1>Hello World!</h1>
+        <h1>Hello World!vsdfgsdfgdfg</h1>
         <h2>This is test...</h2>
+        <h1>This my test</h1>
+        <p>This is another testttttttttttttttttttt</p>
       </div>
 
       <div>
@@ -51,4 +56,4 @@ function Init() {
   );
 }
 
-export default Init;
+export default Sumon;
