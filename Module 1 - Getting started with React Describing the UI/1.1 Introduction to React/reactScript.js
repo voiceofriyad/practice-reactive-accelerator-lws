@@ -59,6 +59,7 @@
 const productPrice = 5000;
 
 function Product() {
+  // const productPrice = 5000;
   const [quantity, setQuantity] = React.useState(0);
 
   function addToCart() {
